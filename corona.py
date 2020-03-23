@@ -42,7 +42,7 @@ class Corona:
                         "Serious, Critical": "", "Tot Cases": ""}
 
             counter = 0
-            for e in self.d[country].keys():
+            for e in self.countries[country]:
                 self.countries[country][e] = cases[counter]
                 counter += 1
 
